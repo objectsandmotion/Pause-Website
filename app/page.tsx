@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#FCF7ED] font-sans">
+    <div className="fixed inset-0 flex items-center justify-center overflow-hidden bg-[#FCF7ED] font-sans">
       {/* Top left squiggle — bleeds off top and left */}
       <div className="fixed left-0 top-0 -translate-x-1/4 -translate-y-1/4">
         <Image
